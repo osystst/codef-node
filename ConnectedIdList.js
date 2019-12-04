@@ -53,8 +53,8 @@ var requestToken = function(url, client_id, client_secret) {
 }
 // ========== Toekn 재발급  ==========
 
-var codef_url = 'https://tapi.codef.io'
-var token_url = 'https://toauth.codef.io/oauth/token'
+var codef_url = 'https://api.codef.io'
+var token_url = 'https://oauth.codef.io/oauth/token'
 
 // 계정목록조회
 var connected_id_list_path = '/v1/account/connectedId-list'
